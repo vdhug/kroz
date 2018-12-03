@@ -103,8 +103,8 @@ img {
 
 
 .shows {
-	height: 2000px;
 	background-color: #000;
+	padding-bottom: 60px;
 }
 
 .subtitulo {
@@ -165,8 +165,9 @@ img {
 	text-align: center;
 }
 
-.list_shows:last-child {
+.list_shows ul:last-of-type {
 	border-bottom: 3px solid #666;
+	margin-bottom: 40px;
 }
 
 .call a {
@@ -179,4 +180,40 @@ img {
 
 .call span {
 	color: #5f1413;
+}
+
+
+.btn:before,  .btn:after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 150px;
+	background: #ee3230;
+	margin: 0px auto 10px auto;
+}
+
+.btn:after {
+	margin: 10px auto 0px auto;
+}
+
+.btn {
+	color: #ee3230;
+	text-align: center;
+	font-family: 'IM Fell English', serif;
+	font-size: 1.7em;
+}
+
+.more_shows {
+	text-align: center;
+}
+
+/* ALbums */
+
+.albums {
+	background-color: #ee3230;
+	padding: 60px 0;
+}
+
+.albums .subtitulo {
+	color: #FFF;
 }
