@@ -103,6 +103,14 @@ img {
 	text-align: center;
 }
 
+.introduction .menu li a {
+	color: #FFF;
+}
+
+.introduction .menu li a:hover, .copy-info a span:hover {
+	color: #5f1413;
+}
+
 .introduction .menu span {
 	margin: 0 20px;
 }
@@ -213,9 +221,6 @@ img {
 	color: #5f1413;
 }
 
-
-
-
 .more_shows {
 	text-align: center;
 }
@@ -257,11 +262,11 @@ img {
 	font-weight: normal;
 }
 
-.copy-info .copy-contact a span {
+.copy-info a span {
 	float: right;
 	font-size: 1.55em;
 	color: #FFF;
-	margin-right: 20px;
+	margin-left: 20px;
 }
 
 .copy-contact a span:hover {

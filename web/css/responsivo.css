@@ -1,9 +1,49 @@
 /*Estilo para tablets*/
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
+
+
 } /* Final do estilo para tablets */
 
 /*Estilo para smartphone*/
 @media only screen and (max-width: 767px) {
+
+.introduction .members li p, .introduction .members span {
+	font-size: 1.1em;
+}
+
+.introduction img {
+	margin: 20px auto;
+}
+
+.introduction .members span {
+	padding-bottom: 15px;
+	margin: 0 10px;
+}
+
+.menu {
+	margin-top: 150px;
+}
+
+.introduction .menu li {
+	font-size: 1em;
+}
+
+.introduction .menu span {
+	margin: 0 20px;
+}
+
+.list_shows .date {
+	text-align: center;
+}
+
+.copy-info p, .copy-info a span {
+	font-size: 1em;
+}
+
+.copy-info a span {
+	margin-left: 15px;
+}
+
 
 } /* Final do estilo para smartphone 
