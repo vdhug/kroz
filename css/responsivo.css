@@ -3,6 +3,10 @@
 /*Estilo para smartphone*/
 @media only screen and (max-width: 767px) {
 
+.introduction {
+	height: 400px;
+}
+
 .introduction .members li p, .introduction .members span {
 	font-size: 1.1em;
 }
@@ -16,8 +20,12 @@
 	margin: 0 10px;
 }
 
+.subtitulo {	
+	font-size: 4.5em;
+}
+
 .menu {
-	margin-top: 150px;
+	margin-top: 50px;
 }
 
 .introduction .menu li {
@@ -30,6 +38,11 @@
 
 .list_shows .date {
 	text-align: center;
+	font-size: 2.32em;
+}
+
+.list_shows ul .info h3, .info p, .list_shows .call, .btn {
+	font-size: 1.53em;
 }
 
 .copy-info {
@@ -47,5 +60,7 @@
 .list_shows ul li {
 	padding: 10px 0;
 }
+
+
 
 } /* Final do estilo para smartphone 
