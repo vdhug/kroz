@@ -44,6 +44,12 @@ img {
 .icon-rock-n-roll:before {
 	content: "\e900";
 }
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
 
 
 /* Header */
@@ -203,6 +209,13 @@ img {
 	font-size: 1.7em;
 }
 
+.btn:hover {
+	color: #5f1413;
+}
+
+
+
+
 .more_shows {
 	text-align: center;
 }
@@ -216,4 +229,41 @@ img {
 
 .albums .subtitulo {
 	color: #FFF;
+}
+
+.albums .subtitulo_descricao {
+	color: #691615;
+}
+
+.discos {
+	padding-top: 40px;
+}
+
+.discos p {
+	font-size: 1.3em;
+}
+
+
+/* */
+.copy {
+	width: 100%;
+	background: #000;
+	padding: 20px 0;
+}
+
+.copy-info p {
+	color: #FFF;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+
+.copy-info .copy-contact a span {
+	float: right;
+	font-size: 1.55em;
+	color: #FFF;
+	margin-right: 20px;
+}
+
+.copy-contact a span:hover {
+	color: #5f1413;
 }
